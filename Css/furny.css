@@ -1,0 +1,682 @@
+
+
+
+.bodied{
+    background-color: rgb(243, 243, 243);
+    font-family: 'Nunito', sans-serif;
+}
+
+@media  (max-width: 800px) {
+    .bodied{
+        margin: 0px;
+    }
+
+}
+
+
+.topBody{
+    
+}
+
+.Top{
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    .topBody{
+        padding: 0px;
+    }
+}
+
+
+.navbar{
+    background-color: white;
+}
+
+.inNavbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.moreNav{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 115px;
+    padding-left: 40px;
+}
+
+@media screen and (max-width: 800px){
+    .moreNav{
+        display: none;
+        position: absolute;
+    }
+}
+   
+
+.furnOne{
+    margin: 0px;
+}
+
+.how{
+    margin: 0px;
+    padding-left: 20px;
+
+}
+
+.about{
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.Img{
+    height: 22px;
+}
+
+.deliveryBar{
+    margin: 0px;
+    display: flex;
+    padding-left: 115px;
+}
+
+@media screen and (max-width: 800px){
+    .deliveryBar{
+        display: none;
+        position: absolute;
+    }
+}
+
+.pin{
+    height: 13px;
+}
+
+
+.locationBar{
+    margin: 0px;
+    padding-left: 5px;
+    
+}
+
+.rightNav{
+    display: flex;
+}
+
+@media screen and (max-width: 800px){
+    .rightNav{
+        
+    }
+}
+
+@media screen and (min-width: 2560px){
+    .rightNav{
+        padding-left: 120px;
+    }
+}
+
+.acc{
+    padding-left: 45px;
+}
+
+.aza{
+    height: 14px;
+}
+
+.searchCon{
+    padding-left: 30px;
+}
+
+.searched{
+    height: 13px;
+}
+
+.cartCon{
+    padding-left: 30px;
+}
+
+.carted{
+    height: 13px;
+}
+
+@media (max-width: 800px){
+    .Living{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+}
+
+.Living{
+    display: flex;
+    margin-top: 2px;
+    background-color: white;
+
+}
+
+.rent{
+    padding-left: 40px;
+    padding-right: 150px;
+}
+
+@media(max-width: 800px){
+    .rent{
+        font-size: 11px;
+        padding-right: 50px;
+    }
+}
+
+.rentBox{
+
+}
+
+@media(max-width: 800px){
+    .rentBox{
+        display: flex;
+        justify-content: space-around;
+        font-size: 30px;
+        padding: 20px;
+    }
+}
+
+.furnish{
+    margin: 0px;
+    font-size: 55px;
+    padding-top: 80px;
+}
+
+@media(max-width: 800px){
+    .furnish{
+        padding: 0px;
+        font-size: 30px;
+    }
+}
+
+.lifer{
+    margin: 0px;
+    font-size: 55px;
+}
+
+@media(max-width: 800px){
+    .lifer{
+        padding: 0px;
+        font-size: 30px;
+    }
+}
+
+.lived{
+    margin: 0px;
+    font-size: 55px;
+    padding-bottom: 80px;
+}
+
+@media(max-width: 800px){
+    .lived{
+        padding: 0px;
+        font-size: 30px;
+    }
+}
+
+.explorer{
+    background-color: #FC8510;
+    border-radius: 20px;
+    border: 0px;
+}
+
+.exp{
+    color: white;
+    font-size: 11px;
+    padding-left: 35px;
+    padding-right: 35px;
+    
+}
+
+.exploreButton{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.couch{
+
+}
+
+.couchBoy{
+    width:100%;
+}
+
+@media (max-width: 800px){
+    .couchBoy{
+        width: 100%;
+    }
+}
+
+.bestSeller{
+    background-color: #FBFBFB;
+    padding: 20px;
+}
+
+@media (max-width: 800px){
+    .bestSeller{
+        padding-top: 25px;
+    }
+}
+.bestProduct{
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+
+@media (max-width: 800px){
+    .bestProduct{
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+}
+
+.productGrid{
+    background-color: #FBFBFB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+@media (max-width: 800px){
+    .productGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        padding: 0px;
+    }
+}
+
+.brownCouch{
+
+}
+
+@media (max-width: 800px){
+    .brownCouch{
+        text-align: center;
+    }
+}
+
+.firstChair{
+    height: 180px;
+}
+
+@media(max-width: 800px){
+    .firstChair{
+        height: 150px;
+    }
+}
+
+.brownWord{
+    text-align: center;
+    font-size: 12px;
+}
+
+@media(max-width: 800px){
+    .brownWord{
+
+    }
+}
+
+.downBrown{
+    text-align: center;
+    font-weight: 20px;
+    font-size: 12px;
+}
+
+.shopButton{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.shopAll{
+    border: 0px;
+    background-color: #FC8510;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.shopper{
+    color: white;
+    font-size: 11px;
+}
+
+.packaging{
+    background-color: white;
+
+}
+
+.packageWord{
+    padding: 30px;
+}
+
+.ours{
+    margin: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+@media (max-width: 800px){
+    .ours{
+        font-size: 25px;
+    }
+}
+
+.packageGrid{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 30px;
+}
+
+
+@media screen and (max-width: 800px){
+    .packageGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .packageGrid{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.flexible{
+    display: flex;
+    height: 200px;
+    background-color: #13293D;
+    padding-top: 30px;
+    padding-left: 150px;
+}
+
+@media (max-width: 800px){
+    .flexible{
+        display: grid;
+        padding: 0px;
+        background-color: #13293D;
+        height: 100%;
+    }
+}
+
+.enjoy{
+
+}
+
+.drawing{
+    height: 240px;
+}
+
+@media (max-width: 800px){
+    .drawing{
+        height: 360px;
+    }
+}
+
+
+
+
+.flexWord{
+    padding-left: 30px;
+    padding-right: 150px;
+}
+
+@media (max-width: 800px){
+    .flexWord{
+        text-align: left;
+        padding: 30px;
+    }
+}
+
+.owned{
+    margin: 0px;
+    color: white;
+    font-size: 25px;
+}
+
+.monthly{
+    color: white;
+    font-size: 11px;
+}
+
+
+.seen{
+    padding-top: 15px;
+}
+
+
+.seeAll{
+    border: 0px;
+    background-color: #FC8510;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.funnyButton{
+    color: white;
+    font-size: 11px;
+}
+
+.empty{
+    background-color: white;
+    padding-bottom: 80px;
+}
+
+@media (max-width: 800px){
+    .empty{
+        padding: 0px;
+    }
+}
+
+.customerGrid{
+    background-color: #FBFBFB;
+    padding: 30px;
+}
+
+@media (max-width: 800px){
+    .customerGrid{
+        padding: 0px;
+    }
+}
+
+.ourCustomer{
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+
+@media (max-width: 800px){
+    .ourCustomer{
+        font-size: 25px;
+        padding: 15px;
+    }
+}
+
+.arrowBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftArrow{
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px){
+    .leftArrow{
+        display: none;
+    }
+}
+
+.arrowBack{
+    height: 20px;
+    
+}
+
+.commentBox{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+
+}
+
+@media screen and (max-width: 800px){
+    .commentBox{
+        display: grid;
+        padding: 0px;
+    }
+}
+
+
+.commentTwo{
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+    padding: 40px;
+}
+
+
+.rating{
+    display: flex; 
+    justify-content: space-between;
+    padding-bottom: 10px;  
+}
+
+.commentWord{
+    text-align: center;
+}
+
+.pogbaComment{
+    margin: 0px;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+.boldPogba{
+    margin: 0px;
+    font-size: 13px;
+}
+
+.frequent{
+    background-color: white;
+}
+
+.faqBox{
+    padding: 30px;
+}
+@media (max-width: 800px){
+    .faqBox{
+        padding: 15px;
+    }
+}
+
+.faqHeader{
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+@media (max-width: 800px){
+    .faqHeader{
+        font-size: 25px;
+    }
+}
+
+.questionBox{
+    border: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+@media (max-width: 800px){
+    .questionBox{
+        padding: 15px;
+    }
+}
+
+.faq{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+@media (max-width: 800px){
+    faq{
+        
+    }
+}
+
+.question1{
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 800px){
+    .question1{
+        text-align: left;
+    }
+}
+
+.emptyDiv{
+    border-top: 1.5rem;
+}
+
+.downArrow{
+    margin: 0px;
+    height: 12px;
+}
+
+.footer{
+    background-color: #13293D;
+    padding: 50px;
+}
+
+@media (max-width: 800px){
+    .footer{
+        padding: 15px;
+    }
+}
+
+.footerBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstFooter{
+    padding-right: 10px;
+}
+
+
+
+@media (max-width: 800px){
+    
+}
+
+.furnitureFooter{
+    margin: 0px;
+    color: white;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.lowerFooter{
+    margin: 0px;
+    color: rgb(197, 197, 197);
+    font-size: 11px;
+    padding-bottom: 5px;
+}
