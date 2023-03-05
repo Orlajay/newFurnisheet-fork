@@ -263,6 +263,7 @@
     margin: 0px;
     text-align: center;
     font-size: 30px;
+    padding-bottom: 20px;
 }
 
 @media (max-width: 800px){
